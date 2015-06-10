@@ -264,9 +264,11 @@
 		88C71B0B16FFEAA600EDD877 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GyrosAndAccelerometers/GyrosAndAccelerometers-Prefix.pch";
 				INFOPLIST_FILE = "GyrosAndAccelerometers/GyrosAndAccelerometers-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,9 +277,11 @@
 		88C71B0C16FFEAA600EDD877 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GyrosAndAccelerometers/GyrosAndAccelerometers-Prefix.pch";
 				INFOPLIST_FILE = "GyrosAndAccelerometers/GyrosAndAccelerometers-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
