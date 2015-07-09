@@ -2,7 +2,6 @@
 //  main.m
 //  GyrosAndAccelerometers
 //
-//  Inspired by joseph hoffman code from github
 #import <UIKit/UIKit.h>
 
 #import "AppDelegate.h"

@@ -19,6 +19,9 @@
 @property (strong, nonatomic) IBOutlet UILabel *rotY;
 @property (strong, nonatomic) IBOutlet UILabel *rotZ;
 
+@property (strong, nonatomic) IBOutlet UILabel *magX;
+@property (strong, nonatomic) IBOutlet UILabel *magY;
+@property (strong, nonatomic) IBOutlet UILabel *magZ;
 
 @property (strong, nonatomic) CMMotionManager *motionManager;
 
