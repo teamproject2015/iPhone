@@ -75,6 +75,42 @@
     self.magZ.text = [NSString stringWithFormat:@" %.2fr/s",magnetic.z];
         
 }
+
+//save data into a csv file
+-(IBAction)saveInfo:(id)sender{
+    NSString *resultLine=[NSString stringWithFormat:@"%@,%@,%@,%@,%@,%@,%@,%@,%@\n",
+                          self.accX.text,
+                          self.accY.text,
+                          self.accZ.text,
+                          self.rotX.text,
+                          self.rotY.text,
+                          self.rotZ.text,
+                          self.magX.text,
+                          self.magY.text,
+                          self.magZ.text];
+    NSString *docPath =[NSSearchPathForDirectoriesInDomains(NSDocumentationDirectory,NSUserDomainMask, YES)objectAtIndex:0];
+    //resultView.text=docPath;
+    NSString *sensorsdata = [docPath stringByAppendingPathComponent:@"results.csv"];
+    if (![[NSFileManager defaultManager] fileExistsAtPath:docPath]){
+        [[NSFileManager defaultManager]
+    createFileAtPath:sensorsdata contents:nil attributes:nil];
+    }
+    NSFileHandle *fileHandle = [NSFileHandle fileHandleForUpdatingAtPath:sensorsdata];
+    [fileHandle seekToEndOfFile];
+    [fileHandle writeData:[resultLine dataUsingEncoding:NSUTF8StringEncoding]];
+    [fileHandle closeFile];
+    self.accX.text=@"";
+    self.accY.text=@"";
+    self.accZ.text=@"";
+    self.rotX.text=@"";
+    self.rotY.text=@"";
+    self.rotZ.text=@"";
+    self.magX.text=@"";
+    self.magY.text=@"";
+    self.magZ.text=@"";
+    NSLog(@"Data saved");
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
