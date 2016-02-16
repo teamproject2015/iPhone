@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#FFF"
     android:orientation="vertical"
-    tools:context="de.unimannheim.loggingapp.NavigationDrawerFragment">
+    tools:context="android.android_5.NavigationDrawerFragment">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycleView_List"

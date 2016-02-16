@@ -2,9 +2,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="android.android_5.MainActivity">
-    <item
+    <!-- <item
         android:id="@+id/action_settings"
-        android:orderInCategory="100"
+        android:orderInCategory="2"
         android:title="@string/action_settings"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_touchlogger"
+        android:orderInCategory="1"
+        android:title="@string/action_startTouchLogger"
+        app:showAsAction="never" />-->
 </menu>

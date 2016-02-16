@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="de.unimannheim.loggingapp.touchlogger.KeyboardActivity">
+    tools:context="android.android_5.touchlogger.KeyboardActivity">
 
     <include
         android:id="@+id/commonLayout_keyboard"
