@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="qwerty_default_key_width">110.0px</dimen>
+    <dimen name="qwerty_default_key_height">68.0px</dimen>
+    <dimen name="qwerty_default_key_horizontal_gap">16.0px</dimen>
+    <dimen name="qwerty_default_key_vertical_gap">10.0px</dimen>
+    <dimen name="qwerty_first_line_vertical_gap">10.0px</dimen>
+    <dimen name="qwerty_last_line_vertical_gap">4.0px</dimen>
+    <dimen name="qwerty_first_col_horizontal_gap">16.0px</dimen>
+    <dimen name="qwerty_first_col_horizontal_gap_second_line">75.0px</dimen>
+    <dimen name="qwerty_l_shift_key_width">136.0px</dimen>
+    <dimen name="qwerty_horizontal_gap_right_of_shift">50.0px</dimen>
+    <dimen name="qwerty_horizontal_gap_left_of_backspace">50.0px</dimen>
+    <dimen name="qwerty_backspace_key_width">136.0px</dimen>
+    <dimen name="qwerty_input_mode_key_width_multi_language">168.0px</dimen>
+    <dimen name="qwerty_space_key_width">464.0px</dimen>
+    <dimen name="qwerty_enter_key_width_multi_language">168.0px</dimen>
+    <dimen name="qwerty_input_mode_key_width">136.0px</dimen>
+    <dimen name="qwerty_enter_key_width">136.0px</dimen>
+    <dimen name="qwerty_space_key_width_no_voice">615.0px</dimen>
+    <dimen name="qwerty_horizontal_gap_left_of_space">50.0px</dimen>
+    <dimen name="qwerty_horizontal_gap_right_of_space">50.0px</dimen>
+
+    <dimen name="phonepad_default_key_horizontal_gap">12.0px</dimen>
+    <dimen name="phonepad_default_key_vertical_gap">4.0px</dimen>
+    <dimen name="phonepad_first_col_horizontal_gap">12.0px</dimen>
+    <dimen name="phonepad_default_key_width">284.0px</dimen>
+    <dimen name="phonepad_default_key_height">72.0px</dimen>
+</resources>

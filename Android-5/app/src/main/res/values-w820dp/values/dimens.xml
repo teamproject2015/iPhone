@@ -1,0 +1,44 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="navdrawer_width">240dp</dimen>
+    <dimen name="navigation_listHeight">48dp</dimen>
+    <dimen name="Navigation_iconmargins">16dp</dimen>
+    <dimen name="vertical_correction">0.0dip</dimen>
+
+    <dimen name="qwerty_default_key_width">64.0px</dimen>
+    <dimen name="qwerty_default_key_height">94.0px</dimen>
+    <dimen name="qwerty_default_key_horizontal_gap">8.0px</dimen>
+    <dimen name="qwerty_default_key_vertical_gap">18.0px</dimen>
+    <dimen name="qwerty_first_line_vertical_gap">8.0px</dimen>
+    <dimen name="qwerty_last_line_vertical_gap">6.0px</dimen>
+    <dimen name="qwerty_first_col_horizontal_gap">4.0px</dimen>
+    <dimen name="qwerty_first_col_horizontal_gap_second_line">40.0px</dimen>
+    <dimen name="qwerty_l_shift_key_width">88.0px</dimen>
+    <dimen name="qwerty_horizontal_gap_right_of_shift">20.0px</dimen>
+    <dimen name="qwerty_horizontal_gap_left_of_backspace">20.0px</dimen>
+    <dimen name="qwerty_backspace_key_width">88.0px</dimen>
+    <dimen name="qwerty_input_mode_key_width_multi_language">114.0px</dimen>
+    <dimen name="qwerty_space_key_width">252.0px</dimen>
+    <dimen name="qwerty_enter_key_width_multi_language">114.0px</dimen>
+    <dimen name="qwerty_input_mode_key_width">114.0px</dimen>
+    <dimen name="qwerty_enter_key_width">114.0px</dimen>
+    <dimen name="qwerty_space_key_width_no_voice">324.0px</dimen>
+
+    <dimen name="phonepad_default_key_horizontal_gap">8.0px</dimen>
+    <dimen name="phonepad_default_key_vertical_gap">8.0px</dimen>
+    <dimen name="phonepad_first_col_horizontal_gap">8.0px</dimen>
+    <dimen name="phonepad_default_key_width">170.0px</dimen>
+    <dimen name="phonepad_default_key_height">100.0px</dimen>
+    <dimen name="phonepad_half_key_width">80.0px</dimen>
+    <dimen name="phonepad_half_key_horizontal_gap">10.0px</dimen>
+
+    <dimen name="pie_segment_label_font_size">10dp</dimen>
+    <dimen name="title_font_size">20dp</dimen>
+    <dimen name="domain_label_font_size">13dp</dimen>
+    <dimen name="range_label_font_size">13dp</dimen>
+    <dimen name="range_tick_label_font_size">15dp</dimen>
+    <dimen name="domain_tick_label_font_size">15dp</dimen>
+    <dimen name="legend_text_font_size">20dp</dimen>
+</resources>
