@@ -1,0 +1,228 @@
+<!-- A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- As the main content view, the view below consumes the entire
+         space available using match_parent in both dimensions.
+    <FrameLayout android:id="@+id/container" android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+-->
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            tools:context=".MainActivity">
+
+
+            <TextView
+                android:id="@+id/textView_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="@string/label_chooseLayoutandOrient" />
+
+            <TextView
+                android:id="@+id/textView_userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView_Title"
+                android:layout_below="@+id/textView_Title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="42dp"
+                android:text="@string/label_userName"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+            <EditText
+                android:id="@+id/editText_userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text=""
+                android:ems="10"
+                android:layout_alignTop="@+id/textView_userName"
+                android:layout_toEndOf="@+id/textView_userName" />
+
+
+            <TextView
+                android:id="@+id/textView_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_userName"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="42dp"
+                android:text="@string/label_layout"
+                android:layout_alignEnd="@+id/textView_userName"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Spinner
+                android:id="@+id/spinner_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView_layout"
+                android:layout_toEndOf="@+id/textView_layout"
+                android:entries="@array/layout_arrays"
+                android:prompt="@string/label_layout" />
+
+
+            <TextView
+                android:id="@+id/textView_orientation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_orientation"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/spinner_layout"
+                android:layout_alignEnd="@+id/textView_layout"
+                android:layout_marginTop="10dp" />
+
+            <Spinner
+                android:id="@+id/spinner_orientation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/spinner_layout"
+                android:layout_alignTop="@+id/textView_orientation"
+                android:entries="@array/orientation_arrays"
+                android:prompt="@string/label_orientation" />
+
+            <TextView
+                android:id="@+id/textView_variation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_variation"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/spinner_orientation"
+                android:layout_alignEnd="@+id/textView_orientation"
+                android:layout_marginTop="10dp" />
+
+            <Spinner
+                android:id="@+id/spinner_variation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/spinner_orientation"
+                android:layout_alignTop="@+id/textView_variation"
+                android:entries="@array/variation_arrays"
+                android:prompt="@string/label_variation" />
+
+
+            <TextView
+                android:id="@+id/textView_addons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_hardwareaddons"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/spinner_variation"
+                android:layout_alignEnd="@+id/textView_variation"
+                android:layout_marginTop="10dp" />
+
+            <Spinner
+                android:id="@+id/spinner_addons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/spinner_variation"
+                android:layout_alignTop="@+id/textView_addons"
+                android:entries="@array/hardware_addons_arrays"
+                android:prompt="@string/label_hardwareaddons" />
+
+
+            <TextView
+                android:id="@+id/textView_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_input"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/spinner_addons"
+                android:layout_alignEnd="@+id/textView_addons"
+                android:layout_marginTop="10dp" />
+
+            <Spinner
+                android:id="@+id/spinner_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/spinner_addons"
+                android:layout_alignTop="@+id/textView_input"
+                android:entries="@array/input_Arrays"
+                android:prompt="@string/label_input" />
+
+            <TextView
+                android:id="@+id/textView_posture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_posture"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/spinner_input"
+                android:layout_alignEnd="@+id/textView_input"
+                android:layout_marginTop="10dp" />
+
+            <Spinner
+                android:id="@+id/spinner_posture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/spinner_input"
+                android:layout_alignTop="@+id/textView_posture"
+                android:entries="@array/posture_Arrays"
+                android:prompt="@string/label_posture" />
+
+            <TextView
+                android:id="@+id/textView_externalFactors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_externalfactors"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/spinner_posture"
+                android:layout_alignEnd="@+id/textView_posture"
+                android:layout_marginTop="10dp" />
+
+            <Spinner
+                android:id="@+id/spinner_externalFactors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/spinner_posture"
+                android:layout_alignTop="@+id/textView_externalFactors"
+                android:entries="@array/externalfactors_Arrays"
+                android:prompt="@string/label_externalfactors" />
+
+            <Button
+                android:id="@+id/button_touchLoggerContinue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinner_externalFactors"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:text="@string/button_continue" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <!-- android:layout_gravity="start" tells DrawerLayout to treat
+         this as a sliding drawer on the left side for left-to-right
+         languages and on the right side for right-to-left languages.
+         If you're not building against API 17 or higher, use
+         android:layout_gravity="left" instead. -->
+    <!-- The drawer is given a fixed width in dp and extends the full height of
+         the container. -->
+    <fragment android:id="@+id/navigation_drawer"
+        android:layout_width="@dimen/navigation_drawer_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:name="de.unimannheim.touchlogger.NavigationDrawerFragment"
+        tools:layout="@layout/fragment_navigation_drawer" />
+
+</android.support.v4.widget.DrawerLayout>

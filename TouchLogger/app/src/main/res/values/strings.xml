@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">TouchLogger</string>
+
+    <string name="title_section1">Touch Logger</string>
+    <string name="title_section2">About</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="label_chooseLayoutandOrient">Please Choose the Layout &amp; Orientation</string>
+    <string name="label_userName">UserName</string>
+    <string name="label_layout">Layout</string>
+    <string name="label_orientation">Orientation</string>
+    <string name="label_variation">Variation</string>
+    <string name="label_hardwareaddons">Hardware-Addons</string>
+    <string name="label_input">Input</string>
+    <string name="label_posture">Posture</string>
+    <string name="label_externalfactors">External Factors</string>
+
+
+    <!-- Dropdowns -->
+    <string-array name="layout_arrays">
+        <item>Keyboard</item>
+    </string-array>
+
+    <string-array name="orientation_arrays">
+        <item>Portrait</item>
+        <item>Left Landscape</item>
+        <item>Right Landscape</item>
+    </string-array>
+
+    <string-array name="variation_arrays">
+        <item>Standard</item>
+        <item>Split</item>
+        <item>Additional Buttons</item>
+    </string-array>
+
+    <string-array name="hardware_addons_arrays">
+        <item>None</item>
+        <item>Bumper</item>
+        <item>Protectors</item>
+    </string-array>
+
+    <string-array name="input_Arrays">
+        <item>Thumbs</item>
+        <item>One Finger</item>
+        <item>Two Fingers</item>
+    </string-array>
+
+    <string-array name="posture_Arrays">
+        <item>Two Hands in front of chest</item>
+        <item>One Hand (Left)</item>
+        <item>One Hand (Right)</item>
+    </string-array>
+
+    <string-array name="externalfactors_Arrays">
+        <item>Sitting</item>
+        <item>Walking</item>
+        <item>Running</item>
+    </string-array>
+
+    <!-- Buttons -->
+    <string name="button_continue" translatable="false">continue</string>
+
+    <!-- Labels-->
+    <string name="button_save" translatable="false">Save</string>
+    <string name="label_type">Please type key:</string>
+    <string name="label_typedKey">You typed:</string>
+    <string name="train_Loggerapp">Please Train the LoggerApp!</string>
+    <string name="file_headerfields" translatable="false">Sensor;System_nanoTime;Key;KeyXCoordinate;KeyYCoordinate;Sensor_XCoordinate;Sensor_YCoordinate;Sensor_ZCoordinate;Target;Username;Layout;Orientation;Variation;HardwareAdds;Input;Posture;ExternalFactors</string>
+    <string name="title_activity_keyboard">Keyboard Touch Logger</string>
+    <string name="title_aboutActivity">About the App</string>
+    <string name="title_baseActivity">Base Activity</string>
+
+</resources>

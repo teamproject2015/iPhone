@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/commonlogger_layout">
+
+
+    <TextView
+        android:id="@+id/textView_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/train_Loggerapp" />
+
+
+    <TextView
+        android:id="@+id/textView_typeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_Title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="@string/label_type"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView_typeLabel"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/textView_typeLabel"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <TextView
+        android:id="@+id/textView_typedKeyLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_typedKey"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@+id/textView_key" />
+
+    <TextView
+        android:id="@+id/textView_typedKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView_typedKeyLabel"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/textView_typedKeyLabel"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+</RelativeLayout>
