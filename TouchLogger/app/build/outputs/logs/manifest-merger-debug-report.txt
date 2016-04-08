@@ -1,0 +1,130 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:2:1-47:12
+	xmlns:android
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:6:5-41:19
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0-alpha1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0-alpha1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0-alpha1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0-alpha1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0-alpha1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0-alpha1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:9:9-41
+	android:allowBackup
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:7:9-35
+	android:icon
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:8:9-43
+	android:theme
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:10:9-40
+activity#de.unimannheim.touchlogger.MainActivity
+ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:11:9-19:20
+	android:label
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:13:13-45
+	android:theme
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:14:13-44
+	android:name
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:12:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:15:13-18:29
+action#android.intent.action.MAIN
+ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:17:27-74
+activity#de.unimannheim.touchlogger.KeyboardActivity
+ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:21:9-26:47
+	android:label
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:23:13-60
+	android:theme
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:26:13-44
+	android:parentActivityName
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:25:13-55
+	android:name
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:22:13-45
+	android:launchMode
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:24:13-48
+activity#de.unimannheim.touchlogger.AboutActivity
+ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:28:9-32:47
+	android:label
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:30:13-56
+	android:theme
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:32:13-44
+	android:name
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:29:13-42
+	android:launchMode
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:31:13-48
+activity#de.unimannheim.touchlogger.BaseActivity
+ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:34:9-38:47
+	android:label
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:36:13-55
+	android:theme
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:38:13-44
+	android:name
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:35:13-41
+	android:launchMode
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:37:13-48
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:44:5-80
+	android:name
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:44:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:45:5-80
+	android:name
+		ADDED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml:45:22-77
+uses-sdk
+INJECTED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0-alpha1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0-alpha1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0-alpha1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0-alpha1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0-alpha1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0-alpha1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0-alpha1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0-alpha1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Team Project\TouchLogger\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.0.0-alpha1] D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0-alpha1\AndroidManifest.xml:23:9-75

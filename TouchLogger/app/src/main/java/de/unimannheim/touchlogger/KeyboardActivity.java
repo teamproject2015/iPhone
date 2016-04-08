@@ -35,7 +35,6 @@ public class KeyboardActivity extends Activity implements
     private static final String CLASS_NAME = KeyboardActivity.class.getName();
     private static String ALPHANUMERIC_RANDOMLETTERS = "abcdefghijklmnopqrstuvwxyz";
     private static final int KEYSTROKE_COUNT = 10;
-    //public static final int SENSOR_DELAY = SensorManager.SENSOR_DELAY_GAME;
 
     private int count;
 
@@ -145,6 +144,7 @@ public class KeyboardActivity extends Activity implements
         int sensorType = event.sensor.getType();
         float[] values = event.values;
 
+        // Enable feeding data from 6 sensors
         if (sensorType == Sensor.TYPE_ACCELEROMETER) {
             populateSensorData("Acceleration", values[0], values[1], values[2]);
         } else if (sensorType == Sensor.TYPE_GYROSCOPE) {
@@ -428,6 +428,16 @@ public class KeyboardActivity extends Activity implements
         else if (generatedKey.equals("x")){targetNumber = 24;}
         else if (generatedKey.equals("y")){targetNumber = 25;}
         else if (generatedKey.equals("z")){targetNumber = 26;}
+        else if (generatedKey.equals("1")){targetNumber = 27;}
+        else if (generatedKey.equals("2")){targetNumber = 28;}
+        else if (generatedKey.equals("3")){targetNumber = 29;}
+        else if (generatedKey.equals("4")){targetNumber = 30;}
+        else if (generatedKey.equals("5")){targetNumber = 31;}
+        else if (generatedKey.equals("6")){targetNumber = 32;}
+        else if (generatedKey.equals("7")){targetNumber = 33;}
+        else if (generatedKey.equals("8")){targetNumber = 34;}
+        else if (generatedKey.equals("9")){targetNumber = 35;}
+        else if (generatedKey.equals("0")){targetNumber = 36;}
         else {targetNumber=0;}
 
 

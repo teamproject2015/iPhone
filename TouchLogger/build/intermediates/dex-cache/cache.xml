@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="9aaaea3a89040f8176f810c85e288fc74d5d1f12">
+        <dex dex="D:\Team Project\TouchLogger\app\build\intermediates\pre-dexed\debug\classes-9a49f4b4255efb77db16005015757ad6a5fef7d7.jar" />
+    </item>
+    <item
+        jar="D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\libs\internal_impl-24.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e57fba0a2d57d3501d8f4ff44c23092978804845">
+        <dex dex="D:\Team Project\TouchLogger\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0-alpha1-9ceed199f00d316cba43fd50cfe5bde08f3681e1.jar" />
+    </item>
+    <item
+        jar="D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ed88e1f0c8fbf66e1da918545f0a6790f893bceb">
+        <dex dex="D:\Team Project\TouchLogger\app\build\intermediates\pre-dexed\debug\classes-a759e4febcd1588580287910eff2297d5aab37fa.jar" />
+    </item>
+    <item
+        jar="D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a6af5beedc2e8c946abc3771525e2fed77439309">
+        <dex dex="D:\Team Project\TouchLogger\app\build\intermediates\pre-dexed\debug\classes-3d26c87d1c2dfc109e3acbe3521edbc868e80735.jar" />
+    </item>
+    <item
+        jar="D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="9684c95278dc45a142d7de3db9e7e39aa520e1e0">
+        <dex dex="D:\Team Project\TouchLogger\app\build\intermediates\pre-dexed\debug\classes-892e91d54cfc0f3b74467ca5ae18bf1ac2bc6a7c.jar" />
+    </item>
+    <item
+        jar="C:\Users\BluePhoenix\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\24.0.0-alpha1\support-annotations-24.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b8062546971a3d196343232a19a3c0016272ba47">
+        <dex dex="D:\Team Project\TouchLogger\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0-alpha1-62e36be90e41730f84e9fe7f712c8124cab45e46.jar" />
+    </item>
+    <item
+        jar="D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="cd688796dadc28f7f95db229cbfdaf91ebbb0d61">
+        <dex dex="D:\Team Project\TouchLogger\app\build\intermediates\pre-dexed\debug\classes-0acb5810274683abd3b30210e8ba3fd4b8310e24.jar" />
+    </item>
+    <item
+        jar="D:\Team Project\TouchLogger\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1f1c7067e22acf05bddbca9f94422050cd848a86">
+        <dex dex="D:\Team Project\TouchLogger\app\build\intermediates\pre-dexed\debug\classes-8b33fc874159e329ff70f18bdaff88a11669cb6e.jar" />
+    </item>
+
+</items>
